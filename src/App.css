@@ -1,16 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container h4 {
+  margin-top: 100px;
+}
+
+.container img {
+  height: 200px;
+  width: 200px;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App button {
+  width: 120px;
+  height: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.depositBtn {
+  background-color: #32a877;
+  color: #fff;
+  border: 1px solid #32a877;
+  border-radius: 5px;
+  margin-right: 2px;
+}
+
+.withdrawBtn {
+  background-color: #de3e43;
+  color: #fff;
+  border: 1px solid #de3e43;
+  border-radius: 5px;
+  margin-left: 2px;
 }
 
 .App-header {
@@ -26,13 +53,4 @@
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
